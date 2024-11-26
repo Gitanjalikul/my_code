@@ -37,18 +37,5 @@ print(f"There are {shortest_seq} shortest sequences", )
 print(f"There are {longest_seq} longest sequences", )
 
 
-from Bio import SeqIO
-class Genome:
-    def __init__(self, input_file):
-        self.input_file = input_file
-
-    def get_largest_seq(self):
-        for record in seq:
-            seq_len = list(len(record))
-        
-
-
-if __name__ == "__main__":
-    seq = SeqIO.parse("E:\my_programs\python_programs\dna.example.fasta")
 
 
